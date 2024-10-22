@@ -34,4 +34,6 @@ and identify key trends in cancellations and renewals.
   I used excel formula to calculate metrics
    - Average Sales Per Product
    - Total Revenue By Region
+   - ![Screenshot (26)](https://github.com/user-attachments/assets/bd7e84fe-b7d1-4f8c-8fa6-120fd7c45f1c)
+
     
