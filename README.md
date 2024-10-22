@@ -28,14 +28,16 @@ and identify key trends in cancellations and renewals.
   - Data Cleaning and Prepation: The data given has about 50,000 records but the records were duplicated. To gain insights and avoid overstating the outcome, I embarked on removing duplicate and prepare the data for exploration.
   ## Data Exploration:
   I carried out expolration of the data by using pivot table to summarize
+   
     - Total Sales By Product
     - Total Sales By Region
     - Total Sales By Month
-    -  Other Interesting report such as: 
+    -  Other Interesting report such as: Quantity sold by region, Average sales per product, Total quantity sold. 
  
      ![Screenshot (26)](https://github.com/user-attachments/assets/bd7e84fe-b7d1-4f8c-8fa6-120fd7c45f1c)
 
   I used excel formula to calculate metrics
+  
    - Average Sales Per Product
    - Total Revenue By Region
    - 
