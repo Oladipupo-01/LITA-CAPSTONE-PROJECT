@@ -26,8 +26,12 @@ and identify key trends in cancellations and renewals.
   # Exploratory Data Analysis
   ## For Sales Performance Analysis for a Retail Store:
   - Data Cleaning and Prepation: The data given has about 50,000 records but the records were duplicated. To gain insights and avoid overstating the outcome, I embarked on removing duplicate and prepare the data for exploration.
-  - Data Exploration: I carried out expolration of the data by using pivot table to summarize
-    1 Total Sales By Product
-    2 Total Sales By Region
-    3 Total Sales By Month
+  ## Data Exploration:
+  I carried out expolration of the data by using pivot table to summarize
+    - Total Sales By Product
+    - Total Sales By Region
+    - Total Sales By Month
+  I used excel formula to calculate metrics
+   - Average Sales Per Product
+   - Total Revenue By Region
     
