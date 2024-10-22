@@ -23,5 +23,6 @@ and identify key trends in cancellations and renewals.
 - Structured Query Language(SQL) for quering the data
 - Power BI for data visualization
   
-  ### Data Cleaning and Preparation
-  The data given has 
+  # Exploratory Data Analysis
+  ## For Sales Performance Analysis for a Retail Store:
+  - Data Cleaning and Prepation: The data given has about 50,000 records but the records were duplicated. To gain insights and avoid overstating the outcome, I embarked on removing duplicate and prepare the data for exploration.
