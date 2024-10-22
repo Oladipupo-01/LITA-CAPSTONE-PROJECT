@@ -31,9 +31,13 @@ and identify key trends in cancellations and renewals.
     - Total Sales By Product
     - Total Sales By Region
     - Total Sales By Month
+    -  Other Interesting report such as: 
+ 
+     ![Screenshot (26)](https://github.com/user-attachments/assets/bd7e84fe-b7d1-4f8c-8fa6-120fd7c45f1c)
+
   I used excel formula to calculate metrics
    - Average Sales Per Product
    - Total Revenue By Region
-   - ![Screenshot (26)](https://github.com/user-attachments/assets/bd7e84fe-b7d1-4f8c-8fa6-120fd7c45f1c)
+   - 
+    ![Screenshot (27)](https://github.com/user-attachments/assets/68d9ec7a-eaa4-4e9a-bc4c-3ca1b66960ca)
 
-    
