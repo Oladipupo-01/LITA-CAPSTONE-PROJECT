@@ -43,7 +43,8 @@ and identify key trends in cancellations and renewals.
    - 
     ![Screenshot (27)](https://github.com/user-attachments/assets/68d9ec7a-eaa4-4e9a-bc4c-3ca1b66960ca)
 
-In SQL: I wrote the queries to extract insight from the  question
+In SQL: I wrote the queries to extract insight from the  following question
+
 - Total number of sales for each category
 
   ```SQL
@@ -97,9 +98,16 @@ select  Region, count(OrderID) as SalesByRegion  from [dbo].[LITA CAPSTONE SALES
       group by Region)
       select Region, (PercentageSales * 100.0/(Select sum(Total_Sales) from [dbo].[LITA CAPSTONE SALES2])) as PercentageSales 
        from Region
-```
+  ```
+### Visualization and Reporting with PowerBI
 
-  
+I developed an interactive dashboard using Power BI to visualize the sales performance of the retail store. The dashboard provides key insights into 
+- Total revenue made by the retail store
+- Top-performing product by revenue
+- Sales made by each region
+- Top selling product by quantity
+
+ It allows users to filter data by product and region. 
 
 
 
