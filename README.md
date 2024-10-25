@@ -46,38 +46,59 @@ and identify key trends in cancellations and renewals.
 In SQL: I wrote the queries to extract insight from the  question
 - Total number of sales for each category
 
-  ```select ProductName, sum(Total_Sales) as ToTalSalesforProduct from [dbo].[LITA CAPSTONE SALES2]
+  ```SQL
+  select ProductName, sum(Total_Sales) as ToTalSalesforProduct from [dbo].[LITA CAPSTONE SALES2]
   group by ProductName
-   order by sum(Total_Sales) desc```
+   order by sum(Total_Sales) desc
+  ```
 - The number of sale transaction in each region
+```SQL
 select  Region, count(OrderID) as SalesByRegion  from [dbo].[LITA CAPSTONE SALES2]
  Group by Region
  order by count(OrderID) desc
+```
 - The highest selling product by total sales
+
+  ```SQL
   select ProductName, max(Total_sales) as HighestSellingProduct  from [dbo].[LITA CAPSTONE SALES2]
-group by ProductName
-order by max(Total_Sales) desc
+    group by ProductName
+     order by max(Total_Sales) desc
+```
 - The total revenue by product
-   select sum(Total_Sales) as ToTalRevenueperProduct, ProductName from [dbo].[LITA CAPSTONE SALES2]
-group by ProductName
+
+```SQL
+   select sum(Total_Sales) as ToTalRevenueperProduct, ProductName
+     from [dbo].[LITA CAPSTONE SALES2]
+       group by ProductName
+```
 - The monthly sales totals for current year
+
+ ```SQL
    select OrderDate,
-sum(Total_Sales) as MonthlySales from  [dbo].[LITA CAPSTONE SALES2]
-where OrderDate between '2024-01-01' and '2024-12-31'
-group by OrderDate 
-order by OrderDate
+     sum(Total_Sales) as MonthlySales from  [dbo].[LITA CAPSTONE SALES2]
+      where OrderDate between '2024-01-01' and '2024-12-31'
+        group by OrderDate 
+        order by OrderDate
+```
 - The top 5 customer by total purchase amount
+
+ ```SQL
   select top 5 Customer_Id, sum(Total_Sales) as TOP5CUSTOMER
-from [dbo].[LITA CAPSTONE SALES2]
-group by Customer_Id
-order by Customer_Id desc
+    from [dbo].[LITA CAPSTONE SALES2]
+    group by Customer_Id
+     order by Customer_Id desc
+```
 - Percentage of total sales contributed by region
+
+  ```SQL
   With Region as (
-select Region,
-sum(Total_Sales) as PercentageSales from [dbo].[LITA CAPSTONE SALES2]
-group by Region)
-select Region, (PercentageSales * 100.0/(Select sum(Total_Sales) from [dbo].[LITA CAPSTONE SALES2])) as PercentageSales from Region
-- Product with no sales in the last quarter
+    select Region,
+    sum(Total_Sales) as PercentageSales from [dbo].[LITA CAPSTONE SALES2]
+      group by Region)
+      select Region, (PercentageSales * 100.0/(Select sum(Total_Sales) from [dbo].[LITA CAPSTONE SALES2])) as PercentageSales 
+       from Region
+```
+
   
 
 
