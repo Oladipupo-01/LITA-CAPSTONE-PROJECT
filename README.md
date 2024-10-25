@@ -107,7 +107,13 @@ I developed an interactive dashboard using Power BI to visualize the sales perfo
 - Sales made by each region
 - Top selling product by quantity
 
- It allows users to filter data by product and region. 
+ It allows users to filter data by product and region.
+
+ ![Screenshot (28)](https://github.com/user-attachments/assets/d3c93f34-89a8-4ba5-a52a-4fc10fc0c15d)
+
+ ### Inference and Conclusion
+ 
+
 
 
 
