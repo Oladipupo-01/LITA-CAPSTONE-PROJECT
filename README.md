@@ -26,8 +26,8 @@ and identify key trends in cancellations and renewals.
   # Exploratory Data Analysis
   ## For Sales Performance Analysis for a Retail Store:
   - Data Cleaning and Prepation: The data given has about 50,000 records but the records were duplicated. To gain insights and avoid overstating the outcome, I embarked on removing duplicate and prepare the data for exploration.
-  ## Data Exploration:
-  I carried out expolration of the data by using pivot table to summarize
+  ## Data Exploration: Excel and SQL
+  In Excel: I carried out expolration of the data by using pivot table to summarize
    
     - Total Sales By Product
     - Total Sales By Region
@@ -42,4 +42,47 @@ and identify key trends in cancellations and renewals.
    - Total Revenue By Region
    - 
     ![Screenshot (27)](https://github.com/user-attachments/assets/68d9ec7a-eaa4-4e9a-bc4c-3ca1b66960ca)
+
+In SQL: I wrote the queries to extract insight from the  question
+- Total number of sales for each category
+
+  ```select ProductName, sum(Total_Sales) as ToTalSalesforProduct from [dbo].[LITA CAPSTONE SALES2]
+  group by ProductName
+   order by sum(Total_Sales) desc```
+- The number of sale transaction in each region
+select  Region, count(OrderID) as SalesByRegion  from [dbo].[LITA CAPSTONE SALES2]
+ Group by Region
+ order by count(OrderID) desc
+- The highest selling product by total sales
+  select ProductName, max(Total_sales) as HighestSellingProduct  from [dbo].[LITA CAPSTONE SALES2]
+group by ProductName
+order by max(Total_Sales) desc
+- The total revenue by product
+   select sum(Total_Sales) as ToTalRevenueperProduct, ProductName from [dbo].[LITA CAPSTONE SALES2]
+group by ProductName
+- The monthly sales totals for current year
+   select OrderDate,
+sum(Total_Sales) as MonthlySales from  [dbo].[LITA CAPSTONE SALES2]
+where OrderDate between '2024-01-01' and '2024-12-31'
+group by OrderDate 
+order by OrderDate
+- The top 5 customer by total purchase amount
+  select top 5 Customer_Id, sum(Total_Sales) as TOP5CUSTOMER
+from [dbo].[LITA CAPSTONE SALES2]
+group by Customer_Id
+order by Customer_Id desc
+- Percentage of total sales contributed by region
+  With Region as (
+select Region,
+sum(Total_Sales) as PercentageSales from [dbo].[LITA CAPSTONE SALES2]
+group by Region)
+select Region, (PercentageSales * 100.0/(Select sum(Total_Sales) from [dbo].[LITA CAPSTONE SALES2])) as PercentageSales from Region
+- Product with no sales in the last quarter
+  
+
+
+
+
+
+
 
