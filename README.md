@@ -112,6 +112,13 @@ I developed an interactive dashboard using Power BI to visualize the sales perfo
  ![Screenshot (28)](https://github.com/user-attachments/assets/d3c93f34-89a8-4ba5-a52a-4fc10fc0c15d)
 
  ### Inference and Conclusion
+ In this analysis of the sales performance of the retail store from 1st of January  2023 to 31st of December 2024, I aimed to uncover trends such as top-selling products, regional performance, and monthly sales trends. The analysis reveled key findings 
+
+ - Total Revenue: The total revenue made by the retail store is #2101090 for the cumulative year of 2023 and 2024
+ - Top perfoeming product by revenue: The product 'Shoe' accounted for 613,000 0f the total revenue
+ 
+ 
+
  
 
 
