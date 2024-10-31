@@ -90,6 +90,7 @@ select  Region, count(OrderID) as SalesByRegion  from [dbo].[LITA CAPSTONE SALES
       select Region, (PercentageSales * 100.0/(Select sum(Total_Sales) from [dbo].[LITA CAPSTONE SALES2])) as PercentageSales 
        from Region
   ```
+  
 ### Visualization and Reporting with PowerBI
 
 I developed an interactive dashboard using Power BI to visualize the sales performance of the retail store. The dashboard provides key insights into 
@@ -101,6 +102,7 @@ I developed an interactive dashboard using Power BI to visualize the sales perfo
  It allows users to filter data by product and region.
  
 ![Screenshot (35)](https://github.com/user-attachments/assets/8e6e26e0-a6e6-4d3a-b11b-08bc5540063f)
+
 
 
  ### Inference and Conclusion
