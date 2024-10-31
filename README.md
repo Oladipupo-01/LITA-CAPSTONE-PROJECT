@@ -1,19 +1,10 @@
 # LITA CAPSTONE PROJECT
 
-## Project Title:Excel
- - Sales Performance Analysis for a Retail Store
- - Customer Segmentation for a Subscription Service
+## Project Title: Sales Performance Analysis for a Retail Store
   
 ## Project Overview:
-### - For Sales Performance Analysis for a Retail Store:
+###  For Sales Performance Analysis for a Retail Store:
 This project aims to collect and analyze data from various regions, stores, and markets to provide actionable insights that will inform business strategies, enhance operational efficiency, and improve customer satisfaction, gaining insights into revenue, units sold, and transaction categories across various regions and stores is critical for driving business strategies and improving overall performance. This project systematically collects and analyzes relevant data to provide actionable insights into sales trends, product performance, and market dynamics over different periods.
-
-### - For Customer Segmentation for a Subscription Service
-   This project involves analyzing customer data for a subscription service to identify 
-segments and trends. The goal is to understand customer behavior, track subscription types, 
-and identify key trends in cancellations and renewals.
-
-## Dataset Description
 
 ## Tools:
 - Microsoft Excel
@@ -34,15 +25,14 @@ and identify key trends in cancellations and renewals.
     - Total Sales By Month
     -  Other Interesting report such as: Quantity sold by region, Average sales per product, Total quantity sold. 
  
-     ![Screenshot (26)](https://github.com/user-attachments/assets/bd7e84fe-b7d1-4f8c-8fa6-120fd7c45f1c)
+     
 
   I used excel formula to calculate metrics
   
    - Average Sales Per Product
    - Total Revenue By Region
    - 
-    ![Screenshot (27)](https://github.com/user-attachments/assets/68d9ec7a-eaa4-4e9a-bc4c-3ca1b66960ca)
-
+    
 In SQL: I wrote the queries to extract insight from the  following question
 
 - Total number of sales for each category
@@ -109,7 +99,6 @@ I developed an interactive dashboard using Power BI to visualize the sales perfo
 
  It allows users to filter data by product and region.
 
- ![Screenshot (28)](https://github.com/user-attachments/assets/d3c93f34-89a8-4ba5-a52a-4fc10fc0c15d)
 
  ### Inference and Conclusion
  In this analysis of the sales performance of the retail store from 1st of January  2023 to 31st of December 2024, I aimed to uncover trends such as top-selling products, regional performance, and monthly sales trends. The analysis reveled key findings 
