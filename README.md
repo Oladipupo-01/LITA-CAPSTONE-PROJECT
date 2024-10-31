@@ -24,14 +24,15 @@ This project aims to collect and analyze data from various regions, stores, and 
     - Total Sales By Region
     - Total Sales By Month
     -  Other Interesting report such as: Quantity sold by region, Average sales per product, Total quantity sold. 
- 
-     
+  ![Screenshot (33)](https://github.com/user-attachments/assets/160f11de-af36-4992-8bf7-95fcae5e5e58)      
 
-  I used excel formula to calculate metrics
+  I used excel formula to calculate 
   
    - Average Sales Per Product
    - Total Revenue By Region
-   - 
+   
+    ![Screenshot (32)](https://github.com/user-attachments/assets/58961657-7b9b-4591-a44a-47e28e8270fe)
+
     
 In SQL: I wrote the queries to extract insight from the  following question
 
