@@ -91,7 +91,7 @@ select  Region, count(OrderID) as SalesByRegion  from [dbo].[LITA CAPSTONE SALES
        from Region
   ```
   
-### Visualization and Reporting with PowerBI
+## Visualization and Reporting with PowerBI
 
 I developed an interactive dashboard using Power BI to visualize the sales performance of the retail store. The dashboard provides key insights into 
 - Total revenue made by the retail store
@@ -105,11 +105,16 @@ I developed an interactive dashboard using Power BI to visualize the sales perfo
 
 
 
- ### Inference and Conclusion
+
+
+
+![Screenshot (38)](https://github.com/user-attachments/assets/cca2ba3f-6d70-4fab-b1a7-97e45ed2b98d)
+
+ ## Inference and Conclusion
  In this analysis of the sales performance of the retail store from 1st of January  2023 to 31st of December 2024, I aimed to uncover trends such as top-selling products, regional performance, and monthly sales trends. The analysis reveled key findings 
 
  - Total Revenue: The total revenue made by the retail store is #2101090 for the cumulative year of 2023 and 2024
- - Top perfoeming product by revenue: The product 'Shoe' accounted for 613,000 0f the total revenue
+ - Top perfoeming product by revenue: The product 'Shoe' accounted for 613,000 0f the total revenue. 
  
  
 
