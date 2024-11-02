@@ -2,8 +2,7 @@
 
 ## Project Title: Sales Performance Analysis for a Retail Store
   
-## Project Overview:
-###  For Sales Performance Analysis for a Retail Store:
+## Project Overview: Sales Performance Analysis for a Retail Store
 This project aims to collect and analyze data from various regions, stores, and markets to provide actionable insights that will inform business strategies, enhance operational efficiency, and improve customer satisfaction, gaining insights into revenue, units sold, and transaction categories across various regions and stores is critical for driving business strategies and improving overall performance. This project systematically collects and analyzes relevant data to provide actionable insights into sales trends, product performance, and market dynamics over different periods.
 
 ## Tools:
@@ -14,10 +13,9 @@ This project aims to collect and analyze data from various regions, stores, and 
 - Structured Query Language(SQL) for quering the data
 - Power BI for data visualization
   
-  # Exploratory Data Analysis
-  ## For Sales Performance Analysis for a Retail Store:
+  ## Exploratory Data Analysis: Sales Performance Analysis for a Retail Store:
   - Data Cleaning and Prepation: The data given has about 50,000 records but the records were duplicated. To gain insights and avoid overstating the outcome, I embarked on removing duplicate and prepare the data for exploration.
-  ## Data Exploration: Excel and SQL
+  ## Data Exploration: Excel a
   In Excel: I carried out expolration of the data by using pivot table to summarize
    
     - Total Sales By Product
@@ -113,8 +111,8 @@ I developed an interactive dashboard using Power BI to visualize the sales perfo
  ## Inference and Conclusion
  In this analysis of the sales performance of the retail store from 1st of January  2023 to 31st of December 2024, I aimed to uncover trends such as top-selling products, regional performance, and monthly sales trends. The analysis reveled key findings 
 
- - Total Revenue: The total revenue made by the retail store is #2101090 for the cumulative year of 2023 and 2024
- - Top perfoeming product by revenue: The product 'Shoe' accounted for 613,000 0f the total revenue. 
+ - Total Revenue by product: 
+ - Top performing product by revenue: The product 'Shoe' accounted for 613,000 0f the total revenue. 
  
  
 
