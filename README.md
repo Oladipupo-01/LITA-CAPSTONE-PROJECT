@@ -111,8 +111,9 @@ I developed an interactive dashboard using Power BI to visualize the sales perfo
  ## Inference and Conclusion
  In this analysis of the sales performance of the retail store from 1st of January  2023 to 31st of December 2024, I aimed to uncover trends such as top-selling products, regional performance, and monthly sales trends. The analysis reveled key findings 
 
- - Total Revenue by product: 
- - Top performing product by revenue: The product 'Shoe' accounted for 613,000 0f the total revenue. 
+ - Total Revenue by product:The top selling product based on revenue is 'shoe'. This may suggest that there's high demand for shoes by customer.
+ - Total Sales by Region: The south region had the highest total sales. This indicate a larger customer base. The region with the with the keast revenue is 'West'. This could as a result of limited awareness of the retail store in the location.
+ - Total Sales by Month: The pivot table show the revenue earned in 2023 and 2024 monthly  At the end of 2023,a total revenue of 1,105,330 and in 2024, a total revenue of 995,760. There was a noticeable decline in the total revenue in 2024 compared to 2023. This could be as a result of economic changes.
  
  
 
